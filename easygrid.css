@@ -1,0 +1,166 @@
+*::-moz-selection {
+  background-color: pink;
+  color: #fff;
+  text-shadow: 6px 6px 8px #ff8da1; }
+
+*::selection {
+  background-color: pink;
+  color: #fff;
+  text-shadow: 6px 6px 8px #ff8da1; }
+
+body, html {
+  font-family: 'Lato', Roboto, Helvetica, sans-serif;
+  padding-top: 5px;
+  margin: 0; }
+
+h1,
+h2,
+h3 {
+  margin: 0; }
+
+p {
+  font-size: 12px;
+  margin: 0; }
+
+p.subtitle {
+  font-size: 20px;
+  line-height: 40px; }
+
+.content {
+  background-color: #e9b3ff;
+  padding: 10px;
+  text-align: center;
+  color: #555;
+  margin: 0;
+  border-radius: 5px;
+  -webkit-transition: .4s all ease-in-out;
+          transition: .4s all ease-in-out; }
+
+.content:hover {
+  background-color: #cd90e6;
+  color: #222; }
+
+.container,
+.container-fluid {
+  max-width: 100%;
+  margin: 0 auto; }
+
+.container {
+  width: 960px; }
+
+.container-fluid {
+  width: 1260px; }
+
+*, *:after, *:before {
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+video {
+  max-width: 100%;
+  height: auto; }
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.grid-pad {
+  padding: 5px 0 5px 5px; }
+
+.grid-pad > [class*='col-']:last-of-type {
+  padding-right: 5px; }
+
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+  padding: 5px 10px 5px 0; }
+
+[class*='col-']:last-of-type {
+  padding-right: 0; }
+
+[class*='col-'] {
+  width: 100%; }
+
+@media only screen and (min-width: 600px) {
+  /* Tablets */
+  .col-m-12-12 {
+    width: 100%; }
+
+  .col-m-11-12 {
+    width: 91.666%; }
+
+  .col-m-10-12 {
+    width: 83.333%; }
+
+  .col-m-9-12 {
+    width: 75%; }
+
+  .col-m-8-12 {
+    width: 66.666%; }
+
+  .col-m-7-12 {
+    width: 58.333%; }
+
+  .col-m-6-12 {
+    width: 50%; }
+
+  .col-m-5-12 {
+    width: 41.666%; }
+
+  .col-m-4-12 {
+    width: 33.333%; }
+
+  .col-m-3-12 {
+    width: 25%; }
+
+  .col-m-2-12 {
+    width: 16.666%; }
+
+  .col-m-1-12 {
+    width: 8.333%; } }
+@media only screen and (min-width: 768px) {
+  /* Desktop */
+  [class*='col-'] {
+    padding-top: 0;
+    padding-bottom: 0; }
+
+  .col-12-12 {
+    width: 100%; }
+
+  .col-11-12 {
+    width: 91.666%; }
+
+  .col-10-12 {
+    width: 83.333%; }
+
+  .col-9-12 {
+    width: 75%; }
+
+  .col-8-12 {
+    width: 66.666%; }
+
+  .col-7-12 {
+    width: 58.333%; }
+
+  .col-6-12 {
+    width: 50%; }
+
+  .col-5-12 {
+    width: 41.666%; }
+
+  .col-4-12 {
+    width: 33.333%; }
+
+  .col-3-12 {
+    width: 25%; }
+
+  .col-2-12 {
+    width: 16.666%; }
+
+  .col-1-12 {
+    width: 8.333%; } }
+
+/*# sourceMappingURL=style.css.map */
